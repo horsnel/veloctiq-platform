@@ -24,8 +24,8 @@
 
     <script>
         // Use the public keys we discussed (Pulling from Cloudflare Env)
-        const supabaseUrl = 'YOUR_SUPABASE_URL_HERE';
-        const supabaseKey = 'YOUR_SUPABASE_ANON_KEY_HERE';
+        const supabaseUrl = 'https://lymztzpvlgdzsoehjrwg.supabase.co';
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx5bXp0enB2bGdkenNvZWhqcndnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1OTEwOTcsImV4cCI6MjA4OTE2NzA5N30.Zq06W47u6AslgkiPX09g0tz8hU8j1n4Ik-7f3HpYWIU';
         const supabase = supabasejs.createClient(supabaseUrl, supabaseKey);
 
         async function fetchTrends() {
