@@ -1,7 +1,9 @@
 name = "veloctiq"
 compatibility_date = "2026-03-15"
 
+# This tells Cloudflare where your index.html is
+[assets]
+directory = "."
+
 [vars]
 PLATFORM_MODE = "INTELLIGENCE_ENGINE"
-# Note: Keep your SUPABASE_URL and SUPABASE_SERVICE_KEY 
-# in the Cloudflare Dashboard 'Settings > Variables' for security.
