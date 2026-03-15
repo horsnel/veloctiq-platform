@@ -1,7 +1,6 @@
-name = "veloctiq-platform"
+name = "veloctiq"
 main = "worker.js"
 compatibility_date = "2026-03-15"
 
 [vars]
-# You can define non-secret vars here, but we'll use the dashboard for secrets
 PLATFORM_MODE = "INTELLIGENCE_ENGINE"
